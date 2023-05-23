@@ -1,0 +1,76 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta content="en-gb" http-equiv="Content-Language" />
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <link rel="stylesheet" href="css/home.css">
+
+  <style type="text/css">
+.auto-style4 {
+	color: #0000FF;
+	font-size: xx-large;
+	font-weight: bold;
+}
+</style>
+<?php
+include("LOGIN_connection.php");
+?>
+</head>
+<body class="body">
+  <div colspan="10" class="auto-style2" style="height: 150px">
+    <table>
+      <tr>
+        <td width="60%">
+          <img src="images/1556608 .png" width="150" height="150" class="center">
+        </td>
+        <td width="40%">F<img src="images/blue-soccer-ball-rAGOX26-600.png" height=28 width=28>
+          <img src="images/blue-soccer-ball-rAGOX26-600.png" height=28 width=28>TBALL ST
+          <img src="images/blue-soccer-ball-rAGOX26-600.png" height=28 width=28>CKS
+        </td>
+
+        <button class="button" style="float: right"><span>About </span></button>
+        <button class="button" style="float: right"><span>CONTACT </span></button>
+        <a href="index.html"><button class="button" style="float: right"><span>HOME </span></button></a>
+        <a href="Login.html"><button class="button" style="float: right"><span>login </span></button></a>
+      </tr>
+    </table>
+  </div>
+  <table>
+    <tr>
+      <td>
+        <ul>
+          <li onclick="src_clk()"><a href="#search" target="I1" onclick="">Search</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">All Players</a></li>
+          <li><a href="#All">All Teams</a></li>
+        </ul>
+      </td>
+      
+      <td style="width:100%">
+          <div style="background-color: burlywood;font-size: larger;width:auto;">
+            <center>
+            <font size="36" Color="blue">
+              Admin login
+              <form method="post" action="Login_connection.php">
+                  <br />
+                Username: <br>
+				  <input type="text" name="usrLgntxt" id="usrLgntxt" style="width: 400px; height: 50px"><br />
+				  <br>
+                Password : <br>
+				  <input type="password" name="usrLgnpass" id="usrLgnpass" style="width:400px; height: 50px">
+                  <br />
+                  <br />
+                  <strong>
+                <input type="Submit" id="usrLgnbtn" name="=usrLgnbtn" value="Log in" class="auto-style4"></strong>
+              </form>
+            </font>
+          </div> 
+        </center>
+      </td>
+  </table>
+  <script src="script/index.js"></script>
+</body>
+
+</html>

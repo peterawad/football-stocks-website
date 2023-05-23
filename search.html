@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Untitled 1</title>
+	<link rel="stylesheet" href="css/Controls.css">
+	<?php 
+		include("connectionGetdata.php");
+	?>
+</head>
+
+<body>
+	<form method="post">
+		<center>
+			<font color="blue" size="36">Choose method of rearching:</font>
+			<br><br>
+			<div class="select">
+				
+					<select name="Select1" id="searchoption" >
+						<option></option>
+						<option value="0">PLAYER NAME</option>
+						<option value="1">GENDER</option>
+						<option value="2">TEAM</option>
+						<option value="3">LOCATION</option>
+						<option value="4">TEAM MANAGER</option>
+					</select>
+			</div>
+		<br><br>
+		<input type="button" name="btn1" value="Choose" onclick="selectchange()" class="select">
+		<br><br>
+		</center>
+	</form>
+	<script src="script/Search_sript.js"></script>
+	</div>
+
+</body>
+
+</html>

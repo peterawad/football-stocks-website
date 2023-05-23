@@ -1,0 +1,99 @@
+.auto-style2 {
+    size: 100%;
+    font-size: 36px;
+    color: #0E0EFF;
+    background-image: linear-gradient(rgb(120, 120, 120), rgb(188, 173, 149));
+    margin: 25px 25px;
+    text-align: top;
+    position: relative;
+  }
+ 
+
+  .center {
+    text-align: center;
+  }
+
+  ul {
+    background-image: linear-gradient(rgb(120, 120, 120), rgb(188, 173, 149));
+    list-style-type: none;
+    margin: 25px 25px;
+    font-size: 24px;
+    padding: 0;
+    width: 200px;
+    height: 500px;
+    background-color: #f1f1f1;
+    column-span: 100px;
+  }
+
+  li a {
+    display: block;
+    color: #000;
+    padding: 40px 20px;
+    text-decoration: none;
+  }
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #091291;
+    color: white;
+  }
+
+  .body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .button {
+    background-color: #091291;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    size: 100px 100px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button5 {
+    border-radius: 50%;
+    font-size: 100;
+  }
+
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .auto-style3 {
+    margin-left: 0px;
+  }
